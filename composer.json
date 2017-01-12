@@ -1,0 +1,19 @@
+{
+    "name": "erik/desi",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "SON\\Db\\": "src",
+        "App\\": "app"
+      }
+    }
+}
